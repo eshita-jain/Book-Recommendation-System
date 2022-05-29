@@ -15,7 +15,8 @@ How to run ?
 Steps:
 
 1. Clone the repositary in your local device.
-2. Install all the requirements using -
+2. Install all the requirements using :
+ 
  pip install -r requirements.txt
 
 3. Then extract the bookdataset.zip in your directory 
@@ -25,7 +26,7 @@ continuaation to it change the path of dataset in the recomm.py file in line num
 python run.py
 
 
-# ALgORITHMS USED
+# ALGORITHMS USED
 
 * CONTENT BASED FILTERING:
 Content based recommender systems take into account the data provided by the user both directly or indirectly. For example, age can be used to determine classes of products or items reviewed or bought by the user. This type of recommender system relies on characteristics of object. New content can be quickly recommended to the user. These type of systems does not take into account behavior/ data about other users in the systems but here things are little changed.
