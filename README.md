@@ -9,7 +9,7 @@ Good old friend is a simple yet powerfull web app made using flask framework to 
 
 Front-end : Developed using HTML and CSS.
 
-Back-end : Flask Framework
+Back-end : Flask Framework.
 
 How to run ?
 
@@ -17,15 +17,18 @@ Steps:
 
 1. Clone the repositary in your local device.
 2. Install all the requirements using :
- 
+'''
  pip install -r requirements.txt
+ 
+ '''
 
 3. Then extract the bookdataset.zip in your directory 
-continuaation to it change the path of dataset in the recomm.py file in line number 13 and 16.
+ Then change the path of dataset in the recomm.py file in line number 13 and 16.
 
-4. Now simply run the server in terminal using 
+4. Now simply run the server in terminal using
+''' 
 python run.py
-
+'''
 
 # ALGORITHMS USED
 
@@ -74,7 +77,10 @@ REGISTER FOR SIGN-UP PAGE
 
 **Prominent part of our web-app:
 
-![image](https://user-images.githubusercontent.com/80577092/170884575-2c2a7a6a-88d0-4660-bae5-fae2178ae1f8.png)
+![image](https://user-images.githubusercontent.com/80577092/170885791-46553692-5a83-4e01-ad0b-7530426d9668.png)
+
+![image](https://user-images.githubusercontent.com/80577092/170885803-f20ff36b-0bf6-4710-8a90-edeeec347b72.png)
+
 
 
  
