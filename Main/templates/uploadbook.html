@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="content-section">
+		<form method="POST" action="">
+			{{ form.hidden_tag() }}
+			<fieldset class="form-grp">
+				<legend class="border-botton mb-4">Upload Book Details</legend>
+
+				<div class="form-grp">
+					{{ form.ISBN.label(class="form-control-label")}}
+
+					{% if form.ISBN.errors %}
+						{{ form.ISBN(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.ISBN.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.ISBN(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+
+				<div class="form-grp">
+					{{ form.Title.label(class="form-control-label")}}
+
+					{% if form.Title.errors %}
+						{{ form.Title(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.Title.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.Title(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+
+				<div class="form-grp">
+					{{ form.Author.label(class="form-control-label")}}
+
+					{% if form.Author.errors %}
+						{{ form.Author(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.Author.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.Author(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+
+				<div class="form-grp">
+					{{ form.Publisher.label(class="form-control-label")}}
+
+					{% if form.Publisher.errors %}
+						{{ form.Publisher(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.Publisher.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.Publisher(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+
+				<div class="form-grp">
+					{{ form.ImageURL.label(class="form-control-label")}}
+
+					{% if form.ImageURL.errors %}
+						{{ form.ImageURL(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.ImageURL.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.ImageURL(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+
+				
+			</fieldset>
+
+			<br/>
+			<div class="form-grp">
+				{{ form.submit(class="btn btn-outline-info")}}
+			</div>
+		</form>
+	</div>
+{% endblock content %}

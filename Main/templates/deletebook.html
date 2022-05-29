@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="content-section">
+		<form method="POST" action="">
+			{{ form.hidden_tag() }}
+			<fieldset class="form-grp">
+				<legend class="border-botton mb-4">Delete Book</legend>
+
+				
+				<div class="form-grp">
+					{{ form.ISBN.label(class="form-control-label")}}
+
+					{% if form.ISBN.errors %}
+						{{ form.ISBN(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.ISBN.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.ISBN(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+	
+			</fieldset>
+			<br/>
+			<div class="form-grp">
+				{{ form.submit(class="btn btn-outline-info")}}
+			</div>
+		</form>
+	</div>
+{% endblock content %}

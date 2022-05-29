@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="content-section">
+		<form method="POST" action="">
+			{{ form.hidden_tag() }}
+			<fieldset class="form-grp">
+				<legend class="border-botton mb-4">Book Recommender</legend>
+
+				<div class="form-grp">
+					{{ form.bookname.label(class="form-control-label")}}
+
+					{% if form.bookname.errors %}
+						{{ form.bookname(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.bookname.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.bookname(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+
+			</fieldset>
+			<br/>
+			<div class="form-grp">
+				{{ form.submit(class="btn btn-outline-info")}}
+			</div>
+		</form>
+	</div>
+	<hr />
+<!-- 	<h1> TOP RECOMMENDATIONS </h1> -->
+	{% for w,x,y,z in final %}
+		<article class="media content-section">
+		  <div class="media-body">
+		    <div class="article-metadata">
+		    	<img class="book-cover-image" src="{{ x }}" align="left" alt=""> 
+		    	<strong>{{ w }}</strong>
+		    </div>
+		    <a class="article-content"> <i>Publication year :</i> {{ y }}</a>
+		    <p class="article-content"> <i>Author :</i> {{ z }}</p>
+		  </div>
+		</article>
+	{% endfor %}
+{% endblock content %}

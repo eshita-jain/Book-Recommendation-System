@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="content-section">
+		<form method="POST" action="">
+			{{ form.hidden_tag() }}
+			<fieldset class="form-grp">
+				<legend class="border-botton mb-4">Feedback</legend>
+
+				<div class="form-grp">
+					{{ form.subject.label(class="form-control-label")}}
+
+					{% if form.subject.errors %}
+						{{ form.subject(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.subject.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.subject(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+
+				<br/>
+
+				<div class="form-grp">
+					{{ form.query.label(class="form-control-label")}}
+
+					{% if form.query.errors %}
+						{{ form.query(class="form-control form-control-lg is-invalid")}}
+						<div class="invalid-feedback">
+							{% for error in form.query.errors %}
+								<span>
+									{{ error }}
+								</span>
+							{% endfor %}
+						</div>
+						{% else %}
+							{{ form.query(class="form-control form-control-lg")}}
+					{% endif %}
+				</div>
+				
+			</fieldset>
+			<br/>
+			<div class="form-grp">
+				<button class="btn btn-outline-info">
+					<a href="mailto:samplemail942@gmail.com?subject=%5B%5B%20FROM%20{{current}}%20%20%5D%5D%20{{form.subject.data}}&body=QUERY%20%3A%0D%0A{{form.query.data}}%0A%0A%0A">
+						SUBMIT
+					</a>
+				</button>
+			</div>
+		</form>
+	</div>
+{% endblock content %}
