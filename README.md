@@ -8,6 +8,7 @@ Good Old Friend - A book Recomemder for all the book lovers out their .To save t
 Good old friend is a simple yet powerfull web app made using flask framework to recommed your favourate book using content based filtering and cosine similarity metrices.
 
 Front-end : Developed using HTML and CSS.
+
 Back-end : Flask Framework
 
 How to run ?
