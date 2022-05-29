@@ -17,18 +17,15 @@ Steps:
 
 1. Clone the repositary in your local device.
 2. Install all the requirements using :
-'''
- pip install -r requirements.txt
- 
- '''
+
+`pip install -r requirements.txt`
 
 3. Then extract the bookdataset.zip in your directory 
  Then change the path of dataset in the recomm.py file in line number 13 and 16.
 
 4. Now simply run the server in terminal using
-''' 
-python run.py
-'''
+  
+`python run.py`
 
 # ALGORITHMS USED
 
