@@ -8,4 +8,4 @@ numpy
 pandas
 sklearn
 flask_mail
-PIL
+pillow
