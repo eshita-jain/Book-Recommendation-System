@@ -45,18 +45,20 @@ It is a numerical value ranges between zero to one which helps to determine how 
 
 MY ACCOUNT PAGE 
 
-![image](https://user-images.githubusercontent.com/80577092/170884625-f5701e5b-253d-43b3-b9fb-83bd4d319d9a.png)
+![image](https://github.com/user-attachments/assets/fc125070-6193-41b9-963e-8fc84edab559)
 
 REGISTER FOR SIGN-UP PAGE
 
-![image](https://user-images.githubusercontent.com/80577092/170884658-1cdefa6f-e6fc-4db2-a4a0-71607ab387d8.png)
+![image](https://github.com/user-attachments/assets/cc7a4676-739d-4e0f-9ecb-66e76a6ee5ea)
 
 
 1. HOME PAGE
 
-![image](https://user-images.githubusercontent.com/80577092/170884450-69970f31-921a-4457-83d9-afe96a4cf697.png)
+![image](https://github.com/user-attachments/assets/1bf86b20-dd00-438e-9f60-7de07f0aa9f9)
 
-![image](https://user-images.githubusercontent.com/80577092/170884466-c31d9508-a6be-4313-94c3-1dd50c9e39d7.png)
+
+![image](https://github.com/user-attachments/assets/fc74dbfb-7278-4ecb-8327-64aac634b624)
+
 
 2. UPLOAD BOOK PAGE
 
@@ -68,15 +70,17 @@ REGISTER FOR SIGN-UP PAGE
 
 4. CONTACT US PAGE
 
-![image](https://user-images.githubusercontent.com/80577092/170884535-a9fd26ec-229d-4d5d-a6bb-e7de3f7414ec.png)
+![image](https://github.com/user-attachments/assets/b658a21d-df50-4e9b-9d4b-0b972476bb9c)
+
 
 5. RECOMMENDATION PAGE 
 
 **Prominent part of our web-app:
 
-![image](https://user-images.githubusercontent.com/80577092/170885791-46553692-5a83-4e01-ad0b-7530426d9668.png)
+![image](https://github.com/user-attachments/assets/c3ca3aba-500e-4743-97fb-225682df1b58)
 
-![image](https://user-images.githubusercontent.com/80577092/170885803-f20ff36b-0bf6-4710-8a90-edeeec347b72.png)
+![image](https://github.com/user-attachments/assets/9d1e6dd9-4308-49dd-9803-35f3682edf6d)
+
 
 
 
