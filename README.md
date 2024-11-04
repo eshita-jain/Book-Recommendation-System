@@ -60,7 +60,7 @@ REGISTER FOR SIGN-UP PAGE
 
 2. UPLOAD BOOK PAGE
 
-![image](https://user-images.githubusercontent.com/80577092/170884488-aecf4b1e-8dbc-48b1-b5df-f1b607c607a7.png)
+![image](https://github.com/user-attachments/assets/5e8f3332-ec85-46bf-aa89-a2f8ac0ab46e)
 
 3. DELETE BOOK PAGE
 
