@@ -64,8 +64,7 @@ REGISTER FOR SIGN-UP PAGE
 
 3. DELETE BOOK PAGE
 
-![image](![170884509-e14535ff-3216-4723-b6c4-9065a9473d2f](https://github.com/user-attachments/assets/f163f948-e633-4e19-b0af-6ffc9356e1d6)
-)
+![image](https://github.com/user-attachments/assets/f163f948-e633-4e19-b0af-6ffc9356e1d6)
 
 4. CONTACT US PAGE
 
